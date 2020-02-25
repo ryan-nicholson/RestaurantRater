@@ -14,7 +14,7 @@
                         Id = c.Int(nullable: false, identity: true),
                         Style = c.String(nullable: false),
                         Name = c.String(nullable: false),
-                        rating = c.Double(nullable: false),
+                        Rating = c.Double(nullable: false),
                         DollarSigns = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);

@@ -19,7 +19,7 @@ namespace RestaurantRater.Models
 
         [Required]
         [Range(0d, 5d)]
-        public double rating { get; set; }
+        public double Rating { get; set; }
 
         [Required]
         [Range(1, 5)]
